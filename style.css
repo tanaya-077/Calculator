@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+
+.container {
+    
+    padding: 50px;  /* rem used kr */
+    height: 400px;
+    width: 300px;
+    background-color:#205b7a;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px; /* he chalel */
+    border-radius: 10px;
+}
+.display{
+    height: 50px;
+    width: 100%;
+    /* background-color: black; */
+}
+
+#dispaly {
+    height: 50px;
+    width: 100%; 
+    background-color: #d0e2bd;
+    border: none;
+    border-radius: 10px;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.row {
+    display: flex;
+    /* flex-direction: column; */
+    gap: 10px;
+}
+
+.row-btn {
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #dceaf6;
+}

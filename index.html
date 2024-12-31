@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="display">
+                <input readonly id="dispaly">
+            </div>
+            
+          
+            <div class="btns">
+              
+                <div class="row">
+                    <input type="button" class="row-btn" value="1">
+                    <input type="button" class="row-btn" value="2">
+                    <input type="button" class="row-btn" value="3">
+                    <input type="button" class="row-btn" value="4">
+                </div>
+
+                <div class="row">
+                    <input type="button" class="row-btn" value="5">
+                    <input type="button" class="row-btn" value="6">
+                    <input type="button" class="row-btn" value="7">
+                    <input type="button" class="row-btn" value="8">
+                </div>
+
+                <div class="row">
+                    <input type="button" class="row-btn" value="9">
+                    <input type="button" class="row-btn" value="0">
+                    <input type="button" class="row-btn" value="+">
+                    <input type="button" class="row-btn" value="-">
+                </div>
+
+                <div class="row">
+                    <input type="button" class="row-btn" value="*">
+                    <input type="button" class="row-btn" value="/">
+                    <input type="button" class="row-btn" value="="onclick="displayValue()">
+                    <input type="button" class="row-btn" id="clear-btn" value="C" onclick="clear()">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
