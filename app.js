@@ -4,13 +4,11 @@ const clearBtn = document.querySelector("#clear-btn");
 
 btns.forEach((btn)=>{
     btn.addEventListener("click",()=>{  
+            if (btn.value !== "=") {
             display.value += btn.value;
+        }
     });
-})
-
-
-
-
+});
 
 
 clearBtn.addEventListener("click", () => {
@@ -21,6 +19,6 @@ clearBtn.addEventListener("click", () => {
 const displayValue =()=>{
     console.log(eval(display.value));
     let displayVal = eval(display.value);
-    display.value += displayVal;
+    display.value = displayVal;
   
 }
