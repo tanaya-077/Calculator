@@ -15,20 +15,24 @@
 
 .container {
     
-    padding: 50px;  /* rem used kr */
+    padding: 50px;  
     height: 400px;
     width: 300px;
     background-color:#205b7a;
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 20px; /* he chalel */
+    gap: 20px; 
     border-radius: 10px;
+    box-shadow: 2px 4px 4px black;
 }
 .display{
     height: 50px;
     width: 100%;
-    /* background-color: black; */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 #dispaly {
@@ -37,6 +41,7 @@
     background-color: #d0e2bd;
     border: none;
     border-radius: 10px;
+    
 }
 
 .btns {
@@ -49,7 +54,6 @@
 
 .row {
     display: flex;
-    /* flex-direction: column; */
     gap: 10px;
 }
 
@@ -60,4 +64,10 @@
     border: none;
     border-radius: 10px;
     background-color: #dceaf6;
+    box-shadow: 2px 2px 1px black;
+    transition:  ease-in-out;
+
+}
+.row-btn:hover{
+    box-shadow: 4px 4px 2px black;
 }
